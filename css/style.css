@@ -8338,3 +8338,116 @@ html .mt15 {
     top: 0;
     z-index: 999999999;
 }
+
+
+/* Custom */
+
+.flup-flex-ileft p.title2 {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.flup-flex-ileft p.title {
+    color: #089674;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.android-sprit {
+    background-image: url(../images/service/10.png);
+    display: inline-block;
+    position: relative;
+}
+
+.android-sprit-1 {
+    background-position: -7px -149px;
+    background-size: 731%;
+    width: 40px;
+    height: 54px;
+    margin-right: 5px;
+}
+
+.android-sprit-2 {
+    background-position: -60px -149px;
+    background-size: 731%;
+    width: 40px;
+    height: 54px;
+    margin-right: 5px;
+}
+
+.android-sprit-3 {
+    background-position: -113px -149px;
+    background-size: 731%;
+    width: 40px;
+    height: 54px;
+    margin-right: 5px;
+}
+
+.android-sprit-4 {
+    background-position: -166px -149px;
+    background-size: 731%;
+    width: 40px;
+    height: 54px;
+    margin-right: 5px;
+}
+
+.android-sprit-5 {
+    background-position: -419px -304px;
+    background-size: 700%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-6 {
+    background-position: -12px -402px;
+    background-size: 700%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-7 {
+    background-position: -106px -402px;
+    background-size: 700%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-8 {
+    background-position: -198px px -381px;
+    background-size: 668%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-9 {
+    background-position: -320px -429px;
+    background-size: 740%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-10 {
+    background-position: -408px -429px;
+    background-size: 740%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-11 {
+    background-position: -496px -429px;
+    background-size: 740%;
+    width: 80px;
+    height: 80px;
+}
+
+.android-sprit-12 {
+    background-position: -13px -531px;
+    background-size: 740%;
+    width: 80px;
+    height: 80px;
+}
+
+.flup-theme {
+    color: #089674;
+}
