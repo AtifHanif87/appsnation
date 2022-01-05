@@ -82,7 +82,12 @@ ul {
 }
 
 ul {
-    list-style: none;
+    list-style: disc;
+}
+
+ul li {
+    line-height: 40px;
+    margin-left: 20px;
 }
 
 a:hover {
@@ -6372,9 +6377,12 @@ html .pb140 {
 
 .bg-btn3 {
     background: #673AB7;
-    background: -moz-linear-gradient(left, #673AB7 0%, #2196F3 100%);
+    /* background: -moz-linear-gradient(left, #673AB7 0%, #2196F3 100%);
     background: -webkit-linear-gradient(left, #673AB7 0%, #2196F3 100%);
-    background: linear-gradient(to right, #673AB7 0%, #2196F3 100%);
+    background: linear-gradient(to right, #673AB7 0%, #2196F3 100%); */
+    background: -moz-linear-gradient(left, #0dacaf 0%, #089674 100%);
+    background: -webkit-linear-gradient(left, #0dacaf 0%, #089674 100%);
+    background: linear-gradient(to right, #0dacaf 0%, #089674 100%);
     -webkit-box-shadow: 0 10px 15px 0px rgba(56, 0, 189, .2);
     box-shadow: 0 10px 15px 0px rgba(56, 0, 189, .2);
 }
@@ -8450,4 +8458,13 @@ html .mt15 {
 
 .flup-theme {
     color: #089674;
+}
+
+.key-points {
+    list-style-type: none;
+}
+
+.industry-type-block {
+    display: block;
+    text-align: center;
 }
