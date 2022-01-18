@@ -8495,3 +8495,164 @@ html .mt15 {
     display: block;
     color: #000;
 }
+
+.choose-us {
+    background: #fff;
+    text-align: center;
+    background-size: 200%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    border: 1px solid #d4f0ff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+    height: 600px;
+}
+
+.android-img {
+    width: 20%;
+    float: left;
+}
+
+.android-img img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.service-heading {
+    width: 80%;
+    float: right;
+}
+
+.features-tab {
+    border-color: #fff;
+}
+
+.features-tab .nav-item.show .nav-link, .features-tab .nav-link.active{
+    border-color: #fff;
+    border-bottom: 5px solid green;
+}
+
+.icon-img  {
+    width: 80px !important;
+    height: 80px;
+}
+
+.liquid-lp-read-more.size-sm {
+    font-size: 11px;
+}
+
+.btn-naked:hover {
+    color: blue;
+    -webkit-transform: translateX(0)!important;
+    transform: translateX(0)!important;
+    background-color: transparent!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.liquid-lp-read-more .btn-line {
+    display: inline-block;
+    width: 2.727em;
+    height: 2px;
+    margin-right: 1em;
+    position: relative;
+    background-color: var(--color-primary);
+    -webkit-transition: -webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: -webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: transform .3s cubic-bezier(0.2,.95,.25,1),-webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.liquid-lp:hover .liquid-lp-read-more .btn-line-before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.liquid-lp-read-more .btn-line-after {
+    -webkit-transform: scaleX(0) translateX(0);
+    transform: scaleX(0) translateX(0);
+}
+
+.liquid-lp-read-more .btn-line-after:after {
+    content: '\f054';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    margin-top: 1px;
+    -webkit-transform: translateY(-50%) scaleX(0);
+    transform: translateY(-50%) scaleX(0);
+    font: normal normal 1em/1 fontAwesome;
+}
+
+.liquid-lp-read-more .btn-line ~ .btn-txt {
+    -webkit-transition: -webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: -webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: transform .3s cubic-bezier(0.2,.95,.25,1);
+    transition: transform .3s cubic-bezier(0.2,.95,.25,1),-webkit-transform .3s cubic-bezier(0.2,.95,.25,1);
+  }
+
+.btn>span{
+    -webkit-transition:-webkit-transform .3s cubic-bezier(0.22,.665,.34,.875);
+    transition:-webkit-transform .3s cubic-bezier(0.22,.665,.34,.875);
+    transition:transform .3s cubic-bezier(0.22,.665,.34,.875);
+    transition:transform .3s cubic-bezier(0.22,.665,.34,.875), -webkit-transform .3s cubic-bezier(0.22,.665,.34,.875)
+}
+
+.liquid-lp:hover .liquid-lp-read-more .btn-line-after{-webkit-transform:scaleX(1) translateX(-3.727em);transform:scaleX(1) translateX(-3.727em)}
+
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+  }
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1;
+  }
+
+  .owl-carousel .nav-btn{
+      height: 47px;
+      position: absolute;
+      width: 26px;
+      cursor: pointer;
+      top: 100px !important;
+  }
+
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }
+
+  .owl-carousel .prev-slide{
+      background: url(nav-icon.png) no-repeat scroll 0 0;
+      left: -33px;
+  }
+  .owl-carousel .next-slide{
+      background: url(nav-icon.png) no-repeat scroll -24px 0px;
+      right: -33px;
+  }
+  .owl-carousel .prev-slide:hover{
+     background-position: 0px -53px;
+  }
+  .owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+  }
