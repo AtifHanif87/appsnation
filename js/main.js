@@ -357,43 +357,78 @@ File Description: Main JS file of the template*/
 //full card portfolio
   var owl = $('.zoomowl');
   owl.owlCarousel({
-        stagePadding: 200,
-        loop:true,
-        margin:10,
-        nav:false,
+    stagePadding: 200,
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+    lazyLoad: true,      
+    responsive:{
+      0:{
         items:1,
-        lazyLoad: true,      
-        responsive:{
-          0:{
-            items:1,
-            stagePadding: 60
-          },
-          600:{
-            items:1,
-            stagePadding: 100
-          },
-          1000:{
-            items:1,
-            stagePadding: 200
-          },
-          1200:{
-            items:1,
-            stagePadding: 250
-          },
-          1400:{
-            items:1,
-            stagePadding: 300
-          },
-          1600:{
-            items:1,
-            stagePadding: 350
-          },
-          1800:{
-            items:1,
-            stagePadding: 400
-          }
-        }
-      });  
+        stagePadding: 60
+      },
+      600:{
+        items:1,
+        stagePadding: 100
+      },
+      1000:{
+        items:1,
+        stagePadding: 200
+      },
+      1200:{
+        items:1,
+        stagePadding: 250
+      },
+      1400:{
+        items:1,
+        stagePadding: 300
+      },
+      1600:{
+        items:1,
+        stagePadding: 350
+      },
+      1800:{
+        items:1,
+        stagePadding: 400
+      }
+    }
+  });
+  
+  //Owl-Carousel - app page case-slider
+  var owl = $('.case-slider');
+  owl.owlCarousel({
+    items: 4,
+    loop: true,
+    autoplay: true,
+    centre: true,
+    margin: 20,
+    nav: false,
+    dots: false,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+    smartSpeed: 2000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      520: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      1200: {
+        items: 1
+      },
+      1400: {
+        items: 1
+      },
+      1600: {
+        items: 1
+      },
+    }
+  });
 
   //Counter Up	
   $(".counter").counterUp({
