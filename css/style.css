@@ -8652,13 +8652,30 @@ html .mt15 {
     padding: 40px 20px;
 }
 
-.megamenu ul.main-menu li {
+.megamenu .main-menu li {
     display: inline-block;
 }
 
-.megamenu ul li ul.main-submenu {
+.megamenu .main-submenu {
     margin-top: 10px;
     margin-left: 60px;
     display: inline-block;
     width: 100%;
+}
+
+.megamenu .main-submenu li a:hover {
+    margin-left: 18px;
+    background: transparent;
+    padding: 0px;
+}
+
+.megamenu .main-submenu li a:hover::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    background: #f9bc33;
+    width: 15px;
+    display: inline;
+    margin-left: -20px;
+    margin-top: 18px;
 }

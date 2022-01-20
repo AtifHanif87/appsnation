@@ -1484,29 +1484,6 @@
     <script src="js/owl.carousel.js"></script>
 
     <script>
-        $( document ).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            });
-        });
-        
-    </script>
-
-    <script>
         $(document).on('click', '#headingtab a', function(e) {
           otherTabs = $(this).attr('data-secondary').split(',');
           for(i= 0; i<otherTabs.length;i++) {
