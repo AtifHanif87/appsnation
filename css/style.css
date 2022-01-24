@@ -81,6 +81,10 @@ ul {
     margin: 0;
 }
 
+a {
+    color: #0dacaf;
+}
+
 ul {
     list-style: disc;
 }
@@ -8643,6 +8647,7 @@ html .mt15 {
 .megamenu ul li a:hover {
     background: #089674;
     padding: 20px 10px;
+    color: #000;
 }
 
 .megamenu ul li a .menu-item-title:hover {
